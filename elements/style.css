@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  border: 0;
+  margin-top: 4em;
+  padding: 1em 4em;
+}
+
+.card > .title {
+  padding-left: 1em;
+  padding-block: 0.75em;
+}
+
+.card > p,
+p.quote,
+p.author {
+  text-align: justify;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 28px;
+  font-style: normal;
+}
+
+.quote-container {
+  padding-block: 1.3em;
+  padding-left: 3em;
+  background-color: #e3e1e1;
+}
+
+.quote-container > p.quote {
+  border-left: 3px solid #848884;
+}
+
+.quote-container > p.quote,
+.quote-container > p.author {
+  font-weight: 300;
+  font-style: italic;
+  text-indent: 3em;
+  padding-block: 1.5em;
+}
+
+.quote-container > p.author {
+  padding-block: 0;
+  text-align: right;
+  padding-right: 3em;
+  font-weight: bold;
+}
+
+.card > .pointless-lorem {
+  text-indent: 3em;
+}
+
+.card > .useful-lorem {
+  text-indent: 3em;
+}
+
+.about-the-author {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  padding: 4em;
+  background-color: #f9e2c5;
+}
+
+.image {
+  padding: 2em;
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.author-name {
+  font-family: "Libre Baskerville", serif;
+  display: inline-block;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 47px;
+  padding-left: 1.5em;
+}
+
+.biography {
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  padding-inline: 2em;
+  text-indent: 2em;
+  color: #222;
+}
+
+.authors-page-line {
+    padding-block: 2em 10em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dostoevsky-btn {
+    background: linear-gradient(to right, #5c4430, #3e2f20);
+    color: #f0e5dc;
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0 4px 8px rgba(20, 10, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .dostoevsky-btn:hover {
+    background: linear-gradient(to right, #3e2f20, #5c4430);
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(20, 10, 0, 0.6);
+    transform: translateY(-2px);
+  }
+  

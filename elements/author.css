@@ -1,0 +1,43 @@
+
+.about-the-author {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding: 4em;
+    background-color: #f9e2c5;
+  }
+  
+  .image {
+    padding: 2em;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .author-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .author-name {
+    font-family: "Libre Baskerville", serif;
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 47px;
+    padding-left: 1.5em;
+  }
+  
+  .biography {
+    font-size: 1.8em;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    padding-inline: 2em;
+    text-indent: 2em;
+    color: #222;
+  }
+
+  
